@@ -22,7 +22,7 @@ const core = require('./tools/core')
 const $P = require('./tools/format-print')
 const $T = require('./tools/format-time')
 
-console.log($P('MCBSSWiki widget - bundle ' + $T(), 'grey'))
+console.log($P('SaltProject - bundle ' + $T(), 'grey'))
 ;(async () => {
   let start, end
   console.log($P(' BUNDLE ', 'b', 'white', 'cyanbg'), '正在打包')
