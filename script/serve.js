@@ -11,7 +11,7 @@ const $T = require('./tools/format-time')
 const { findPort } = require('./tools/port')
 const openUrl = require('./tools/openUrl')
 
-console.log($P('MCBSSWiki widget - serve ' + $T(), 'grey'))
+console.log($P('SaltProject - serve ' + $T(), 'grey'))
 ;(async () => {
   const www = path.resolve(__dirname, '../www')
   const _port = await findPort(port)
